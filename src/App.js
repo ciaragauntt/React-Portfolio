@@ -3,7 +3,6 @@ import Navbar from "./components/Navbar";
 import Projects from "./components/Projects";
 import About from "./components/About";
 import Contact from "./components/Contact";
-import Skills from "./components/Skills";
 import Resume from "./components/Resume";
 
 export default function App() {
@@ -12,7 +11,6 @@ export default function App() {
             <Navbar />
             <About />
             <Projects />
-            <Skills />
             <Resume />
             <Contact />
         </main>
