@@ -4,10 +4,11 @@ import Projects from "./components/Projects";
 import About from "./components/About";
 import Contact from "./components/Contact";
 import Resume from "./components/Resume";
+import ".//App.css";
 
-export default function App() {
+function App() {
     return (
-        <main className =" text-gray-400 bg-gray-900 body-font">
+        <main>
             <Navbar />
             <About />
             <Projects />
@@ -16,3 +17,5 @@ export default function App() {
         </main>
     );
 }
+
+export default App;
