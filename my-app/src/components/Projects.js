@@ -17,28 +17,22 @@ class Projects extends Component{
                 </div>
                 <div className = "flex flex-wrap">
                     {projects.map((project) => (
-                        <a
+                        <div>
+                            <a
                             href={project.link}
-                            key={project.image}
-                            className = "sm: w-1/2 w-100 p-4">
-                            <div className = "felx relative">
-                                <img 
-                                    alt="project-gallery"
-                                    src={project.image}
-                                />
-                                <div>
-                                    <h2>
-                                        {project.subtitle}
-                                    </h2>
-                                    <h1>
-                                        {project.title}
-                                    </h1>
-                                    <p>
-                                        {project.description}
-                                    </p>
-                                </div>
-                            </div>
+                            key={project.image}>
+                                <h1> {project.title} </h1>
                             </a>
+                        
+                            <div className = "row">
+                                <div className="column">
+                                <img src={project.image}/>
+                                <h2>{project.subtitle}</h2>
+                                <p>{project.description}</p>
+                                </div>
+                    
+                            </div>
+                        </div>
                     ))}
                 </div>
             </div>

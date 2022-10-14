@@ -25,7 +25,7 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: #dad7cd;
 }
 
 @keyframes App-logo-spin {
@@ -37,13 +37,20 @@
   }
 }
 
-body {
-  background-color: #FFCC00;
+/* body {
+  background-color:#ffdac6;
   padding: 20px;
   margin: 0;
-}
+} */
 h1, h2, p, ul, li {
-  font-family: sans-serif;
+  font-family: monospace;
+}
+p {
+  font-weight: bolder;
+}
+img{
+  width:25em; 
+  height:15em;
 }
 ul.header li {
   display: inline;
@@ -51,18 +58,47 @@ ul.header li {
   margin: 0;
 }
 ul.header {
-  background-color: #111;
+  background-color:#588b8b;
   padding: 0;
 }
 ul.header li a {
-  color: #FFF;
+  color:#ffffff;
   font-weight: bold;
   text-decoration: none;
   padding: 20px;
   display: inline-block;
 }
+ul.footer{
+  background-color:#588b8b;
+  padding: 0;
+}
+ul.footer li a {
+  color:#ffffff;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 20px;
+  display: inline-block;
+}
+ul.footer li {
+  display: inline;
+  list-style-type: none;
+  margin: 0;
+}
+a {
+  box-shadow: inset 0 0 0 0 #282b28;
+  color:#282b28;
+  margin: 0 -.25rem;
+  padding: 0 .25rem;
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+
+}
+a:hover {
+  box-shadow: inset 100px 0 0 0 #282b28;
+  color: white;
+}
+
 .content {
-  background-color: #FFF;
+  background-color:white;
   padding: 20px;
 }
 .content h2 {
@@ -71,4 +107,79 @@ ul.header li a {
 }
 .content li {
   margin-bottom: 10px;
+}
+.project-box{
+  display: flex;
+  background-color: azure;
+}
+.subtitle{
+  display: flex;
+}
+img{
+  flex-wrap: wrap;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster:wght@100;400&display=swap');
+
+#name{
+  text-align:right;
+  margin-left: 130px;
+  padding-top: 30%;
+  font-size: 180%;
+  font-family: lobster;
+  color: white;
+}
+
+.title-word {
+  animation: color-animation 4s linear infinite;
+}
+
+.title-word-1 {
+  --color-1: #DF8453;
+  --color-2: #3D8DAE;
+  --color-3: #E4A9A8;
+}
+
+.title-word-2 {
+  --color-1: #DBAD4A;
+  --color-2: #ACCFCB;
+  --color-3: #17494D;
+}
+
+.title-word-3 {
+  --color-1: #ACCFCB;
+  --color-2: #E4A9A8;
+  --color-3: #ACCFCB;
+}
+
+.title-word-4 {
+  --color-1: #3D8DAE;
+  --color-2: #DF8453;
+  --color-3: #E4A9A8;
+}
+
+@keyframes color-animation {
+  0%    {color: var(--color-1)}
+  32%   {color: var(--color-1)}
+  33%   {color: var(--color-2)}
+  65%   {color: var(--color-2)}
+  66%   {color: var(--color-3)}
+  99%   {color: var(--color-3)}
+  100%  {color: var(--color-1)}
+}
+
+/* Here are just some visual styles. 🖌 */
+
+.container {
+  display: grid;
+  place-items: center;  
+  text-align: center;
+  height: 70vh
+}
+
+.title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  font-size: 5vw;
+  text-transform: uppercase;
 }
