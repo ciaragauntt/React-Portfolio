@@ -182,7 +182,7 @@ img{
   display: grid;
   place-items: center;  
   text-align: center;
-  height: 70vh
+  height: 70vh;
 }
 
 .title {
