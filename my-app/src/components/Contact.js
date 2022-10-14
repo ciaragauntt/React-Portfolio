@@ -1,6 +1,7 @@
-import React from "react";
+import React, { Component } from "react";
 
-export default function Contact() {
+class Contact extends Component {
+    render(){
     return (
         <section id="contact">
             <div>
@@ -70,4 +71,7 @@ export default function Contact() {
             </form>
         </section>
     );
+    }
 }
+
+export default Contact;

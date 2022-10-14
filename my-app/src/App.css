@@ -37,30 +37,38 @@
   }
 }
 
-nav {
-  background-color: lightgray;
-}
-
-.navbar-name {
-  color: grey;
-  float:right;
-}
-li{
+body {
+  background-color: #FFCC00;
+  padding: 20px;
   margin: 0;
-  padding: 0;
-  padding-right: 10px;
 }
-ul{
+h1, h2, p, ul, li {
+  font-family: sans-serif;
+}
+ul.header li {
+  display: inline;
   list-style-type: none;
   margin: 0;
-  padding: 0;
-  overflow: hidden;
-  position: fixed;
-  top: 0;
-  width: 100%;
 }
-li a {
-  color: white;
-  padding: 14px;
+ul.header {
+  background-color: #111;
+  padding: 0;
+}
+ul.header li a {
+  color: #FFF;
+  font-weight: bold;
   text-decoration: none;
+  padding: 20px;
+  display: inline-block;
+}
+.content {
+  background-color: #FFF;
+  padding: 20px;
+}
+.content h2 {
+  padding: 0;
+  margin: 0;
+}
+.content li {
+  margin-bottom: 10px;
 }

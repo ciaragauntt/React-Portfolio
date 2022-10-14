@@ -1,6 +1,7 @@
-import React from "react";
+import React, { Component } from "react";
 
-export default function Resume() {
+class Resume extends Component{
+    render(){
     return (
         <section id="resume">
             <div>
@@ -12,5 +13,8 @@ export default function Resume() {
                 />
             </div>
         </section>
-    )
+    );
+    }
 }
+
+export default Resume;

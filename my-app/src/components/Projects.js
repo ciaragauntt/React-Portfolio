@@ -1,7 +1,8 @@
-import React from "react";
+import React, { Component } from "react";
 import { projects } from "../data";
 
-export default function Projects() {
+class Projects extends Component{
+    render() {
     return (
         <section id="projects" className =" text-gray-400 body-font">
             <div className="conatiner">
@@ -43,4 +44,7 @@ export default function Projects() {
             </div>
         </section>
     );
+                    }
 }
+
+export default Projects;

@@ -1,6 +1,7 @@
-import React from "react";
+import React, { Component } from "react";
 
-export default function About() {
+class About extends Component {
+    render () {
     return(
             <div>
                 <h1>
@@ -18,4 +19,7 @@ export default function About() {
                 </p>
             </div>
     );
+    }
 }
+
+export default About;
