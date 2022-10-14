@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+import profilephoto from '../images/profile-pic.jpg';
+
 
 class About extends Component {
     render () {
@@ -7,6 +9,9 @@ class About extends Component {
                 <h1>
                     Welcome to my React Portfolio
                 </h1>
+                <React.Fragment>
+                <img className="profile-photo" src={profilephoto} alt={"Ciara Gauntt"}/>
+                </React.Fragment>
                 <p>
                     I recently graduated from the Trilogy Coding Bootcamp at the <br/>
                     University of Utah. With no prior knowledge of coding, I have<br/>

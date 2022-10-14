@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import resumepic from '../images/resumescreenshot.jpg';
 
 class Resume extends Component{
     render(){
@@ -8,9 +9,7 @@ class Resume extends Component{
                 <h2>
                     RESUME
                 </h2>
-                <img
-                src= ""
-                />
+                <img className="resumepic" src={resumepic}></img>
             </div>
         </section>
     );
