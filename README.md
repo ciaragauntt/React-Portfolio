@@ -7,3 +7,10 @@ deploy. If you can give input on how to fix this issue, I would love the input!
 * npm i
 * npm start
 
+# Tools Used
+* Node.js
+* React.js
+* Html
+* Css
+* Bootstrap
+* Google Fonts
