@@ -133,7 +133,7 @@ img{
   font-family: lobster;
   color: white;
 }
-/* 
+
 .title-word {
   animation: color-animation 4s linear infinite;
 }
@@ -170,7 +170,7 @@ img{
   66%   {color: var(--color-3)}
   99%   {color: var(--color-3)}
   100%  {color: var(--color-1)}
-} */
+}
 
 .container {
   display: grid;
