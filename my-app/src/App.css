@@ -1,3 +1,7 @@
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Lobster:wght@100;400&display=swap');
+
 .App {
   text-align: center;
 }
@@ -36,12 +40,6 @@
     transform: rotate(360deg);
   }
 }
-
-/* body {
-  background-color:#ffdac6;
-  padding: 20px;
-  margin: 0;
-} */
 h1, h2, p, ul, li {
   font-family: monospace;
 }
@@ -127,8 +125,6 @@ img{
   height: 45em;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Lobster:wght@100;400&display=swap');
-
 #name{
   text-align:right;
   margin-left: 130px;
@@ -137,7 +133,7 @@ img{
   font-family: lobster;
   color: white;
 }
-
+/* 
 .title-word {
   animation: color-animation 4s linear infinite;
 }
@@ -174,9 +170,7 @@ img{
   66%   {color: var(--color-3)}
   99%   {color: var(--color-3)}
   100%  {color: var(--color-1)}
-}
-
-/* Here are just some visual styles. 🖌 */
+} */
 
 .container {
   display: grid;
@@ -191,8 +185,6 @@ img{
   font-size: 5vw;
   text-transform: uppercase;
 }
-
-@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
 
 .fa {
   padding: 20px;
