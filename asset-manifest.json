@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/ciaragauntt/React-Portfolio/static/css/main.fb5cc8f8.css",
-    "main.js": "/ciaragauntt/React-Portfolio/static/js/main.88b5e876.js",
-    "static/js/787.28cb0dcd.chunk.js": "/ciaragauntt/React-Portfolio/static/js/787.28cb0dcd.chunk.js",
-    "static/media/profile-pic.jpg": "/ciaragauntt/React-Portfolio/static/media/profile-pic.de3a42cb1adde32af3b9.jpg",
-    "static/media/resumescreenshot.jpg": "/ciaragauntt/React-Portfolio/static/media/resumescreenshot.a4e47ca442093f555164.jpg",
-    "index.html": "/ciaragauntt/React-Portfolio/index.html",
-    "main.fb5cc8f8.css.map": "/ciaragauntt/React-Portfolio/static/css/main.fb5cc8f8.css.map",
-    "main.88b5e876.js.map": "/ciaragauntt/React-Portfolio/static/js/main.88b5e876.js.map",
-    "787.28cb0dcd.chunk.js.map": "/ciaragauntt/React-Portfolio/static/js/787.28cb0dcd.chunk.js.map"
+    "main.css": "/ciaragauntt.github.io/React-Portfolio/static/css/main.fb5cc8f8.css",
+    "main.js": "/ciaragauntt.github.io/React-Portfolio/static/js/main.35e04000.js",
+    "static/js/787.28cb0dcd.chunk.js": "/ciaragauntt.github.io/React-Portfolio/static/js/787.28cb0dcd.chunk.js",
+    "static/media/profile-pic.jpg": "/ciaragauntt.github.io/React-Portfolio/static/media/profile-pic.de3a42cb1adde32af3b9.jpg",
+    "static/media/resumescreenshot.jpg": "/ciaragauntt.github.io/React-Portfolio/static/media/resumescreenshot.a4e47ca442093f555164.jpg",
+    "index.html": "/ciaragauntt.github.io/React-Portfolio/index.html",
+    "main.fb5cc8f8.css.map": "/ciaragauntt.github.io/React-Portfolio/static/css/main.fb5cc8f8.css.map",
+    "main.35e04000.js.map": "/ciaragauntt.github.io/React-Portfolio/static/js/main.35e04000.js.map",
+    "787.28cb0dcd.chunk.js.map": "/ciaragauntt.github.io/React-Portfolio/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fb5cc8f8.css",
-    "static/js/main.88b5e876.js"
+    "static/js/main.35e04000.js"
   ]
 }
